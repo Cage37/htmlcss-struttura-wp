@@ -11,7 +11,7 @@
     clear: both;
 }
 
-.container{
+body{
     width: 75%;
     margin: auto;
 
@@ -39,11 +39,43 @@ header{
     color: white;
 }
 main{
-    height: 400px;
+    height: 420px;
     background-color: white;
+}
+
+.Title_2{
+    height: 50px;
+    background-color: thistle;
+}
+
+.Container{
+    height: 370px;
+    background-color: yellow;
+
+}
+
+.Sidebar_left{
+    height: 370px;
+    width: 20%;
+    background-color: turquoise;
+    float: left;
+}
+
+.Main_content{
+    height: 370px;
+    width: 60%;
+    background-color: yellow;
+    float: left;
+}    
+
+.Sidebar_right{
+    height: 370px;
+    width: 20%;
+    background-color: lightsalmon;
+    float: left;
 }
 
 footer{
     height: 25px;
-    background-color: sandybrown;
+    background-color: greenyellow;
 }
