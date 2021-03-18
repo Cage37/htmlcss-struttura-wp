@@ -1,0 +1,49 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+
+}
+
+header{
+    height: 350px;
+    background-color:red;
+}
+
+.Title{
+    height: 50px;
+    background-color: greenyellow;
+}
+
+.Link{
+    height: 30px;
+    background-color: blue;
+    color: white;
+}
+
+.Photo{
+    height: 270px;
+    background-color: blueviolet;
+    color: white;
+}
+main{
+    height: 400px;
+    background-color: white;
+}
+
+footer{
+    height: 25px;
+    background-color: sandybrown;
+}
